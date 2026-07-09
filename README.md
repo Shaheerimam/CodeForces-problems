@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 91 | 17 |
+| 102 | 18 |
 
 ---
 
@@ -14,19 +14,20 @@
 
 - [*special](#special) (1)
 - [binary search](#binary-search) (6)
-- [bitmasks](#bitmasks) (4)
+- [bitmasks](#bitmasks) (8)
 - [brute force](#brute-force) (15)
 - [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (17)
+- [constructive algorithms](#constructive-algorithms) (20)
 - [data structures](#data-structures) (22)
 - [dp](#dp) (2)
 - [dsu](#dsu) (1)
-- [greedy](#greedy) (43)
+- [games](#games) (1)
+- [greedy](#greedy) (47)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (33)
-- [math](#math) (29)
-- [number theory](#number-theory) (2)
-- [sortings](#sortings) (12)
+- [implementation](#implementation) (34)
+- [math](#math) (37)
+- [number theory](#number-theory) (6)
+- [sortings](#sortings) (13)
 - [strings](#strings) (18)
 - [two pointers](#two-pointers) (12)
 
@@ -54,7 +55,11 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1498B | [Box Fitting](https://codeforces.com/contest/1498/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1498/B%20-%20Box%20Fitting/solution.cpp) |
+| 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.cpp) |
+| 1635A | [Min Or Sum](https://codeforces.com/contest/1635/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1635/A%20-%20Min%20Or%20Sum/solution.cpp) |
 | 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
+| 1726B | [Mainak and Interesting Sequence](https://codeforces.com/contest/1726/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1726/B%20-%20Mainak%20and%20Interesting%20Sequence/solution.cpp) |
+| 1991B | [AND Reconstruction](https://codeforces.com/contest/1991/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1991/B%20-%20AND%20Reconstruction/solution.cpp) |
 | 1994B | [Fun Game](https://codeforces.com/contest/1994/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1994/B%20-%20Fun%20Game/solution.cpp) |
 | 2200B | [Deletion Sort](https://codeforces.com/contest/2200/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2200/B%20-%20Deletion%20Sort/solution.cpp) |
 
@@ -94,13 +99,16 @@
 | 1506D | [Epic Transformation](https://codeforces.com/contest/1506/problem/D) | 1400 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1506/D%20-%20Epic%20Transformation/solution.cpp) |
 | 1509A | [Average Height](https://codeforces.com/contest/1509/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1509/A%20-%20Average%20Height/solution.cpp) |
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.cpp) |
+| 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.cpp) |
 | 1579E1 | [Permutation Minimization by Deque](https://codeforces.com/contest/1579/problem/E1) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1579/E1%20-%20Permutation%20Minimization%20by%20Deque/solution.cpp) |
+| 1726B | [Mainak and Interesting Sequence](https://codeforces.com/contest/1726/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1726/B%20-%20Mainak%20and%20Interesting%20Sequence/solution.cpp) |
 | 1793C | [Dora and Search](https://codeforces.com/contest/1793/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1793/C%20-%20Dora%20and%20Search/solution.cpp) |
 | 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 1922A | [Tricky Template](https://codeforces.com/contest/1922/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1922/A%20-%20Tricky%20Template/solution.cpp) |
 | 1927B | [Following the String](https://codeforces.com/contest/1927/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1927/B%20-%20Following%20the%20String/solution.cpp) |
 | 1948A | [Special Characters](https://codeforces.com/contest/1948/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1948/A%20-%20Special%20Characters/solution.cpp) |
+| 1991B | [AND Reconstruction](https://codeforces.com/contest/1991/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1991/B%20-%20AND%20Reconstruction/solution.cpp) |
 | 1994B | [Fun Game](https://codeforces.com/contest/1994/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1994/B%20-%20Fun%20Game/solution.cpp) |
 | 2005A | [Simple Palindrome](https://codeforces.com/contest/2005/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2005/A%20-%20Simple%20Palindrome/solution.cpp) |
 | 2191A | [Array Coloring](https://codeforces.com/contest/2191/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2191/A%20-%20Array%20Coloring/solution.cpp) |
@@ -146,6 +154,12 @@
 |---|---------|------------|----------|
 | 501B | [Misha and Changing Handles](https://codeforces.com/contest/501/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/501/B%20-%20Misha%20and%20Changing%20Handles/solution.cpp) |
 
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
@@ -161,6 +175,7 @@
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.cpp) |
 | 1579E1 | [Permutation Minimization by Deque](https://codeforces.com/contest/1579/problem/E1) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1579/E1%20-%20Permutation%20Minimization%20by%20Deque/solution.cpp) |
 | 1582C | [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1582/C%20-%20Grandma%20Capa%20Knits%20a%20Scarf/solution.cpp) |
+| 1635A | [Min Or Sum](https://codeforces.com/contest/1635/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1635/A%20-%20Min%20Or%20Sum/solution.cpp) |
 | 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
 | 1702C | [Train and Queries](https://codeforces.com/contest/1702/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1702/C%20-%20Train%20and%20Queries/solution.cpp) |
 | 1714B | [Remove Prefix](https://codeforces.com/contest/1714/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1714/B%20-%20Remove%20Prefix/solution.cpp) |
@@ -170,11 +185,13 @@
 | 1873D | [1D Eraser](https://codeforces.com/contest/1873/problem/D) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1873/D%20-%201D%20Eraser/solution.cpp) |
 | 1873F | [Money Trees](https://codeforces.com/contest/1873/problem/F) | 1300 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1873/F%20-%20Money%20Trees/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
+| 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1901/A%20-%20Line%20Trip/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 1927A | [Make it White](https://codeforces.com/contest/1927/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1927/A%20-%20Make%20it%20White/solution.cpp) |
 | 1927B | [Following the String](https://codeforces.com/contest/1927/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1927/B%20-%20Following%20the%20String/solution.cpp) |
 | 1974A | [Phone Desktop](https://codeforces.com/contest/1974/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1974/A%20-%20Phone%20Desktop/solution.cpp) |
 | 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1986/C%20-%20Update%20Queries/solution.cpp) |
+| 1991B | [AND Reconstruction](https://codeforces.com/contest/1991/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1991/B%20-%20AND%20Reconstruction/solution.cpp) |
 | 1994B | [Fun Game](https://codeforces.com/contest/1994/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1994/B%20-%20Fun%20Game/solution.cpp) |
 | 2000D | [Right Left Wrong](https://codeforces.com/contest/2000/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2000/D%20-%20Right%20Left%20Wrong/solution.cpp) |
 | 2005A | [Simple Palindrome](https://codeforces.com/contest/2005/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2005/A%20-%20Simple%20Palindrome/solution.cpp) |
@@ -193,6 +210,7 @@
 | 2236A | [Games on the Train](https://codeforces.com/contest/2236/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2236/A%20-%20Games%20on%20the%20Train/solution.cpp) |
 | 2236B | [Tatar TV Show](https://codeforces.com/contest/2236/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2236/B%20-%20Tatar%20TV%20Show/solution.cpp) |
 | 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
 
 ### hashing
 
@@ -210,6 +228,7 @@
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [GNU C11](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/118/A%20-%20String%20Task/solution.c) |
 | 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [GNU C11](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.c) |
 | 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
+| 678C | [Joty and Chocolate](https://codeforces.com/contest/678/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/678/C%20-%20Joty%20and%20Chocolate/solution.cpp) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
 | 855A | [Tom Riddle's Diary](https://codeforces.com/contest/855/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/855/A%20-%20Tom%20Riddle's%20Diary/solution.cpp) |
 | 862A | [Mahmoud and Ehab and the MEX](https://codeforces.com/contest/862/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/862/A%20-%20Mahmoud%20and%20Ehab%20and%20the%20MEX/solution.cpp) |
@@ -243,16 +262,23 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 678C | [Joty and Chocolate](https://codeforces.com/contest/678/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/678/C%20-%20Joty%20and%20Chocolate/solution.cpp) |
 | 735D | [Taxes](https://codeforces.com/contest/735/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/735/D%20-%20Taxes/solution.cpp) |
+| 762A | [k-th divisor](https://codeforces.com/contest/762/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/762/A%20-%20k-th%20divisor/solution.cpp) |
 | 1430C | [Numbers on Whiteboard](https://codeforces.com/contest/1430/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1430/C%20-%20Numbers%20on%20Whiteboard/solution.cpp) |
 | 1506A | [Strange Table](https://codeforces.com/contest/1506/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1506/A%20-%20Strange%20Table/solution.cpp) |
 | 1515A | [Phoenix and Gold](https://codeforces.com/contest/1515/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1515/A%20-%20Phoenix%20and%20Gold/solution.cpp) |
+| 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.cpp) |
 | 1579E1 | [Permutation Minimization by Deque](https://codeforces.com/contest/1579/problem/E1) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1579/E1%20-%20Permutation%20Minimization%20by%20Deque/solution.cpp) |
+| 1618C | [Paint the Array](https://codeforces.com/contest/1618/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1618/C%20-%20Paint%20the%20Array/solution.cpp) |
 | 1669E | [2-Letter Strings](https://codeforces.com/contest/1669/problem/E) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1669/E%20-%202-Letter%20Strings/solution.cpp) |
 | 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
+| 1726B | [Mainak and Interesting Sequence](https://codeforces.com/contest/1726/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1726/B%20-%20Mainak%20and%20Interesting%20Sequence/solution.cpp) |
 | 1729A | [Two Elevators](https://codeforces.com/contest/1729/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1729/A%20-%20Two%20Elevators/solution.cpp) |
 | 1843B | [Long Long](https://codeforces.com/contest/1843/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1843/B%20-%20Long%20Long/solution.cpp) |
 | 1873F | [Money Trees](https://codeforces.com/contest/1873/problem/F) | 1300 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1873/F%20-%20Money%20Trees/solution.cpp) |
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
+| 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1901/A%20-%20Line%20Trip/solution.cpp) |
 | 1974A | [Phone Desktop](https://codeforces.com/contest/1974/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1974/A%20-%20Phone%20Desktop/solution.cpp) |
 | 1980A | [Problem Generator](https://codeforces.com/contest/1980/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1980/A%20-%20Problem%20Generator/solution.cpp) |
 | 1994B | [Fun Game](https://codeforces.com/contest/1994/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1994/B%20-%20Fun%20Game/solution.cpp) |
@@ -272,13 +298,18 @@
 | 2236A | [Games on the Train](https://codeforces.com/contest/2236/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2236/A%20-%20Games%20on%20the%20Train/solution.cpp) |
 | 2236B | [Tatar TV Show](https://codeforces.com/contest/2236/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2236/B%20-%20Tatar%20TV%20Show/solution.cpp) |
 | 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
 
 ### number theory
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 678C | [Joty and Chocolate](https://codeforces.com/contest/678/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/678/C%20-%20Joty%20and%20Chocolate/solution.cpp) |
 | 735D | [Taxes](https://codeforces.com/contest/735/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/735/D%20-%20Taxes/solution.cpp) |
+| 762A | [k-th divisor](https://codeforces.com/contest/762/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/762/A%20-%20k-th%20divisor/solution.cpp) |
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 | 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
 
 ### sortings
 
@@ -288,6 +319,7 @@
 | 1165B | [Polycarp Training](https://codeforces.com/contest/1165/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1165/B%20-%20Polycarp%20Training/solution.cpp) |
 | 1722D | [Line](https://codeforces.com/contest/1722/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1722/D%20-%20Line/solution.cpp) |
 | 1792A | [GamingForces](https://codeforces.com/contest/1792/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1792/A%20-%20GamingForces/solution.cpp) |
+| 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 1974B | [Symmetric Encoding](https://codeforces.com/contest/1974/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1974/B%20-%20Symmetric%20Encoding/solution.cpp) |
 | 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1986/C%20-%20Update%20Queries/solution.cpp) |
