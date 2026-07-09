@@ -6,32 +6,50 @@
 
 | Total Problems | Topics |
 |---|---|
-| 31 | 11 |
+| 46 | 15 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [brute force](#brute-force) (5)
+- [*special](#special) (1)
+- [binary search](#binary-search) (1)
+- [brute force](#brute-force) (7)
 - [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (5)
-- [data structures](#data-structures) (3)
-- [greedy](#greedy) (10)
-- [hashing](#hashing) (1)
-- [implementation](#implementation) (12)
+- [constructive algorithms](#constructive-algorithms) (7)
+- [data structures](#data-structures) (9)
+- [dsu](#dsu) (1)
+- [greedy](#greedy) (15)
+- [hashing](#hashing) (2)
+- [implementation](#implementation) (22)
 - [math](#math) (15)
 - [number theory](#number-theory) (1)
-- [sortings](#sortings) (2)
-- [strings](#strings) (5)
+- [sortings](#sortings) (5)
+- [strings](#strings) (11)
+- [two pointers](#two-pointers) (1)
 
 ---
+
+### *special
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
+
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 
 ### brute force
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 855A | [Tom Riddle's Diary](https://codeforces.com/contest/855/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/855/A%20-%20Tom%20Riddle's%20Diary/solution.cpp) |
 | 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
 | 1873A | [Short Sort](https://codeforces.com/contest/1873/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1873/A%20-%20Short%20Sort/solution.cpp) |
+| 1997A | [Strong Password](https://codeforces.com/contest/1997/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1997/A%20-%20Strong%20Password/solution.cpp) |
 | 2106A | [Dr. TC](https://codeforces.com/contest/2106/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2106/A%20-%20Dr.%20TC/solution.cpp) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [GNU C11](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.c) |
 | 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.cpp) |
@@ -46,7 +64,9 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 | 1579E1 | [Permutation Minimization by Deque](https://codeforces.com/contest/1579/problem/E1) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1579/E1%20-%20Permutation%20Minimization%20by%20Deque/solution.cpp) |
+| 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 2005A | [Simple Palindrome](https://codeforces.com/contest/2005/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2005/A%20-%20Simple%20Palindrome/solution.cpp) |
 | 2191A | [Array Coloring](https://codeforces.com/contest/2191/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2191/A%20-%20Array%20Coloring/solution.cpp) |
@@ -56,17 +76,34 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/4/C%20-%20Registration%20System/solution.cpp) |
+| 501B | [Misha and Changing Handles](https://codeforces.com/contest/501/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/501/B%20-%20Misha%20and%20Changing%20Handles/solution.cpp) |
+| 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 | 1703B | [ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1703/B%20-%20ICPC%20Balloons/solution.cpp) |
+| 1714B | [Remove Prefix](https://codeforces.com/contest/1714/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1714/B%20-%20Remove%20Prefix/solution.cpp) |
+| 1722C | [Word Game](https://codeforces.com/contest/1722/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1722/C%20-%20Word%20Game/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
+| 1907B | [YetnotherrokenKeoard](https://codeforces.com/contest/1907/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1907/B%20-%20YetnotherrokenKeoard/solution.cpp) |
 | 2117C | [Cool Partition](https://codeforces.com/contest/2117/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2117/C%20-%20Cool%20Partition/solution.cpp) |
+
+### dsu
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 501B | [Misha and Changing Handles](https://codeforces.com/contest/501/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/501/B%20-%20Misha%20and%20Changing%20Handles/solution.cpp) |
 
 ### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
+| 862A | [Mahmoud and Ehab and the MEX](https://codeforces.com/contest/862/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/862/A%20-%20Mahmoud%20and%20Ehab%20and%20the%20MEX/solution.cpp) |
 | 1579E1 | [Permutation Minimization by Deque](https://codeforces.com/contest/1579/problem/E1) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1579/E1%20-%20Permutation%20Minimization%20by%20Deque/solution.cpp) |
+| 1714B | [Remove Prefix](https://codeforces.com/contest/1714/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1714/B%20-%20Remove%20Prefix/solution.cpp) |
 | 1722D | [Line](https://codeforces.com/contest/1722/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1722/D%20-%20Line/solution.cpp) |
+| 1792A | [GamingForces](https://codeforces.com/contest/1792/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1792/A%20-%20GamingForces/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
+| 1927A | [Make it White](https://codeforces.com/contest/1927/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1927/A%20-%20Make%20it%20White/solution.cpp) |
 | 1974A | [Phone Desktop](https://codeforces.com/contest/1974/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1974/A%20-%20Phone%20Desktop/solution.cpp) |
 | 2005A | [Simple Palindrome](https://codeforces.com/contest/2005/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2005/A%20-%20Simple%20Palindrome/solution.cpp) |
 | 2117C | [Cool Partition](https://codeforces.com/contest/2117/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2117/C%20-%20Cool%20Partition/solution.cpp) |
@@ -79,21 +116,32 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/4/C%20-%20Registration%20System/solution.cpp) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [GNU C11](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.c) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/4/C%20-%20Registration%20System/solution.cpp) |
+| 44A | [Indian Summer](https://codeforces.com/contest/44/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/44/A%20-%20Indian%20Summer/solution.cpp) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [GNU C11](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/118/A%20-%20String%20Task/solution.c) |
 | 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [GNU C11](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.c) |
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
+| 855A | [Tom Riddle's Diary](https://codeforces.com/contest/855/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/855/A%20-%20Tom%20Riddle's%20Diary/solution.cpp) |
+| 862A | [Mahmoud and Ehab and the MEX](https://codeforces.com/contest/862/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/862/A%20-%20Mahmoud%20and%20Ehab%20and%20the%20MEX/solution.cpp) |
 | 1676A | [Lucky?](https://codeforces.com/contest/1676/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1676/A%20-%20Lucky%3F/solution.cpp) |
 | 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
 | 1703B | [ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1703/B%20-%20ICPC%20Balloons/solution.cpp) |
+| 1714B | [Remove Prefix](https://codeforces.com/contest/1714/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1714/B%20-%20Remove%20Prefix/solution.cpp) |
+| 1722C | [Word Game](https://codeforces.com/contest/1722/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1722/C%20-%20Word%20Game/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 1873A | [Short Sort](https://codeforces.com/contest/1873/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1873/A%20-%20Short%20Sort/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
+| 1907B | [YetnotherrokenKeoard](https://codeforces.com/contest/1907/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1907/B%20-%20YetnotherrokenKeoard/solution.cpp) |
+| 1974B | [Symmetric Encoding](https://codeforces.com/contest/1974/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1974/B%20-%20Symmetric%20Encoding/solution.cpp) |
+| 1997A | [Strong Password](https://codeforces.com/contest/1997/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1997/A%20-%20Strong%20Password/solution.cpp) |
 | 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.cpp) |
 | 2176A | [Operations with Inversions](https://codeforces.com/contest/2176/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2176/A%20-%20Operations%20with%20Inversions/solution.cpp) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2227/A%20-%20Koshary/solution.cpp) |
@@ -128,7 +176,10 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
 | 1722D | [Line](https://codeforces.com/contest/1722/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1722/D%20-%20Line/solution.cpp) |
+| 1792A | [GamingForces](https://codeforces.com/contest/1792/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1792/A%20-%20GamingForces/solution.cpp) |
+| 1974B | [Symmetric Encoding](https://codeforces.com/contest/1974/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1974/B%20-%20Symmetric%20Encoding/solution.cpp) |
 | 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.cpp) |
 
 ### strings
@@ -137,9 +188,21 @@
 |---|---------|------------|----------|
 | 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.cpp) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [GNU C11](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/118/A%20-%20String%20Task/solution.c) |
+| 501B | [Misha and Changing Handles](https://codeforces.com/contest/501/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/501/B%20-%20Misha%20and%20Changing%20Handles/solution.cpp) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
+| 855A | [Tom Riddle's Diary](https://codeforces.com/contest/855/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/855/A%20-%20Tom%20Riddle's%20Diary/solution.cpp) |
 | 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
+| 1907B | [YetnotherrokenKeoard](https://codeforces.com/contest/1907/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1907/B%20-%20YetnotherrokenKeoard/solution.cpp) |
+| 1927A | [Make it White](https://codeforces.com/contest/1927/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1927/A%20-%20Make%20it%20White/solution.cpp) |
+| 1974B | [Symmetric Encoding](https://codeforces.com/contest/1974/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1974/B%20-%20Symmetric%20Encoding/solution.cpp) |
+| 1997A | [Strong Password](https://codeforces.com/contest/1997/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1997/A%20-%20Strong%20Password/solution.cpp) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 
 ---
 
