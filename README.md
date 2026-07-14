@@ -6,13 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 103 | 18 |
+| 104 | 19 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (1)
+- [Uncategorized](#uncategorized) (1)
 - [binary search](#binary-search) (6)
 - [bitmasks](#bitmasks) (8)
 - [brute force](#brute-force) (15)
@@ -38,6 +39,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 637B | [Chat Order](https://codeforces.com/contest/637/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/637/B%20-%20Chat%20Order/solution.cpp) |
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
 
 ### binary search
 
