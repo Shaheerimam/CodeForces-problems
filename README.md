@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 118 | 19 |
+| 119 | 19 |
 
 ---
 
@@ -16,11 +16,11 @@
 - [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (6)
 - [bitmasks](#bitmasks) (8)
-- [brute force](#brute-force) (16)
+- [brute force](#brute-force) (17)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (23)
 - [data structures](#data-structures) (22)
-- [dp](#dp) (2)
+- [dp](#dp) (3)
 - [dsu](#dsu) (1)
 - [games](#games) (1)
 - [greedy](#greedy) (52)
@@ -81,6 +81,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 189A | [Cut Ribbon](https://codeforces.com/contest/189/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/189/A%20-%20Cut%20Ribbon/solution.cpp) |
 | 855A | [Tom Riddle's Diary](https://codeforces.com/contest/855/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/855/A%20-%20Tom%20Riddle's%20Diary/solution.cpp) |
 | 1399C | [Boats Competition](https://codeforces.com/contest/1399/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1399/C%20-%20Boats%20Competition/solution.cpp) |
 | 1512A | [Spy Detected!](https://codeforces.com/contest/1512/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1512/A%20-%20Spy%20Detected!/solution.cpp) |
@@ -163,6 +164,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 189A | [Cut Ribbon](https://codeforces.com/contest/189/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/189/A%20-%20Cut%20Ribbon/solution.cpp) |
 | 368B | [Sereja and Suffixes](https://codeforces.com/contest/368/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/368/B%20-%20Sereja%20and%20Suffixes/solution.cpp) |
 | 2195C | [Dice Roll Sequence](https://codeforces.com/contest/2195/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/2195/C%20-%20Dice%20Roll%20Sequence/solution.cpp) |
 
