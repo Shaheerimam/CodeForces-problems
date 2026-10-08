@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 119 | 19 |
+| 120 | 19 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (8)
 - [brute force](#brute-force) (17)
 - [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (23)
+- [constructive algorithms](#constructive-algorithms) (24)
 - [data structures](#data-structures) (22)
 - [dp](#dp) (3)
 - [dsu](#dsu) (1)
@@ -26,7 +26,7 @@
 - [greedy](#greedy) (52)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (35)
-- [math](#math) (43)
+- [math](#math) (44)
 - [number theory](#number-theory) (13)
 - [sortings](#sortings) (13)
 - [strings](#strings) (18)
@@ -119,6 +119,7 @@
 | 1521A | [Nastia and Nearly Good Numbers](https://codeforces.com/contest/1521/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1521/A%20-%20Nastia%20and%20Nearly%20Good%20Numbers/solution.cpp) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.cpp) |
 | 1579E1 | [Permutation Minimization by Deque](https://codeforces.com/contest/1579/problem/E1) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1579/E1%20-%20Permutation%20Minimization%20by%20Deque/solution.cpp) |
+| 1708B | [Difference of GCDs](https://codeforces.com/contest/1708/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1708/B%20-%20Difference%20of%20GCDs/solution.cpp) |
 | 1726B | [Mainak and Interesting Sequence](https://codeforces.com/contest/1726/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1726/B%20-%20Mainak%20and%20Interesting%20Sequence/solution.cpp) |
 | 1793C | [Dora and Search](https://codeforces.com/contest/1793/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1793/C%20-%20Dora%20and%20Search/solution.cpp) |
 | 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.cpp) |
@@ -303,6 +304,7 @@
 | 1618C | [Paint the Array](https://codeforces.com/contest/1618/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1618/C%20-%20Paint%20the%20Array/solution.cpp) |
 | 1669E | [2-Letter Strings](https://codeforces.com/contest/1669/problem/E) | 1200 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1669/E%20-%202-Letter%20Strings/solution.cpp) |
 | 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
+| 1708B | [Difference of GCDs](https://codeforces.com/contest/1708/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1708/B%20-%20Difference%20of%20GCDs/solution.cpp) |
 | 1726B | [Mainak and Interesting Sequence](https://codeforces.com/contest/1726/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1726/B%20-%20Mainak%20and%20Interesting%20Sequence/solution.cpp) |
 | 1729A | [Two Elevators](https://codeforces.com/contest/1729/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1729/A%20-%20Two%20Elevators/solution.cpp) |
 | 1843B | [Long Long](https://codeforces.com/contest/1843/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Shaheerimam/CodeForces-problems/blob/HEAD/1843/B%20-%20Long%20Long/solution.cpp) |
