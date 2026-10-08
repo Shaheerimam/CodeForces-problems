@@ -1,10 +1,4 @@
 #include <bits/stdc++.h>
-/*
-|-------------------|
-|Solved by,         |
-|.  SHAHEER IMAM.   |
-|-------------------|
-*/
 typedef long long ll;
 using namespace std;
 void solve(){
