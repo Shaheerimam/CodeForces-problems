@@ -1,12 +1,11 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cmath>
-#include <string>
-#include <map>
-#include <set>
-#include <queue>
- 
+#include <bits/stdc++.h>
+/*
+|-------------------|
+|Solved by,         |
+|.  SHAHEER IMAM.   |
+|-------------------|
+*/
+typedef long long ll;
 using namespace std;
  
 int main(){
